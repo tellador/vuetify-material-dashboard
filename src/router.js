@@ -20,7 +20,7 @@ export default new Router({
         // Pages
         {
           name: 'User Profile',
-          path: 'pages/user',
+          path: 'Tellador',
           component: () => import('@/views/dashboard/pages/UserProfile'),
         },
         {
