@@ -19,8 +19,8 @@ export default new Router({
         },
         // Pages
         {
-          name: 'User Profile',
-          path: 'Tellador',
+          name: 'Usuário',
+          path: 'pages/User',
           component: () => import('@/views/dashboard/pages/UserProfile'),
         },
         {
